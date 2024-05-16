@@ -8,6 +8,33 @@
     align-items: center;
 }
 
+.topbar p:hover {
+    cursor: pointer;
+    color: #ff7a50;
+}
+
+.search {
+    width: 21px;
+    height: 21px;
+    background: url('images/search_black.svg') center / contain no-repeat;
+}
+
+.search:hover {
+    cursor: pointer;
+    background-image: url('images/search_orange.svg');
+}
+
+.buy {
+    width: 21px;
+    height: 21px;
+    background: url('images/buy_black.svg') center / contain no-repeat;
+}
+
+.buy:hover {
+    cursor: pointer;
+    background-image: url('images/buy_orange.svg');
+}
+
 .topbar__item {
     @include flexi(row,center,space-between);
 }
