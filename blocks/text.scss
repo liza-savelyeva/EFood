@@ -1,0 +1,75 @@
+.text {
+    font-family: 'Rubik';
+    color: #363853;
+}
+
+
+.text_weight_300 {
+    font-weight: 300;
+}
+.text_weight_400 {
+    font-weight: 400;
+}
+.text_weight_500 {
+    font-weight: 500;
+}
+
+
+.text_size_14 {
+    font-size: 14px;
+}
+.text_size_15 {
+    font-size: 15px;
+}
+.text_size_16 {
+    font-size: 16px;
+}
+.text_size_18 {
+    font-size: 18px;
+}
+.text_size_20 {
+    font-size: 20px;
+    line-height: 30px;
+}
+.text_size_24 {
+    font-size: 24px;
+}
+.text_size_33 {
+    font-size: 33px;
+}
+.text_size_36 {
+    font-size: 36px;
+}
+.text_size_40 {
+    font-size: 40px;
+}
+.text_size_66 {
+    font-size: 66px;
+}
+
+
+.text_color_orange {
+    color: #ff7a50;
+}
+.text_color_grey {
+    color: #AAAAAA;
+}
+.text_color_white {
+    color: #FFFFFF;
+}
+
+
+.text_align_center {
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    .text_size_66 {font-size: 60px;}
+}
+
+@media screen and (max-width: 1024px) {
+    .text_size_66 {font-size: 45px;}
+    .text_size_36 {font-size: 34px;}
+}

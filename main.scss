@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F9FAFF;
+    padding: 0 10%;
+}
+
+@mixin flexi($fl,$a,$j) {
+    display: flex;
+    flex-flow: $fl;
+    align-items: $a;
+    justify-content: $j;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+@import 'blocks/text.scss';
+@import 'blocks/header.scss';
+@import 'blocks/popular.scss';
+@import 'blocks/provide.scss';
+@import 'blocks/restaurant.scss';
+@import 'blocks/app.scss';
+@import 'blocks/clients.scss';
+@import 'blocks/subscribe.scss';
+@import 'blocks/footer.scss';
+
+button {
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1024px) {
+    body {padding: 0 7%;}
+}
+
+@media screen and (max-width: 768px) {
+    body {padding: 0 5%;}
+}
+
+@media screen and (max-width: 426px) and (min-width: 320px) {
+    body {padding: 0 3%;}
+}

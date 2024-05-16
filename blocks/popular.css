@@ -1,0 +1,52 @@
+.tabs {
+  padding: 4% 0;
+}
+
+.tabs__nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tabs-nav__item {
+  cursor: pointer;
+  font-family: "Rubik";
+  font-weight: 400;
+  font-size: 20px;
+  color: #363853;
+  background-color: #FFFFFF;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  padding: 2% 4%;
+}
+
+.tabs-nav__item.is-active {
+  color: #FFFFFF;
+  background-color: #ff7a50;
+}
+
+.tab {
+  display: none;
+}
+
+.tab.is-active {
+  display: block;
+}
+
+.tabs-nav__img_white {
+  display: none;
+}
+
+.tabs-nav__img_black {
+  display: none;
+}
+
+.tabs-nav__img_white.is-active {
+  display: block;
+}
+
+.tabs-nav__img_black.is-active {
+  display: block;
+}/*# sourceMappingURL=popular.css.map */
